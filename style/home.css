@@ -72,7 +72,7 @@ main form{
 }
 
 .mainData .employee-card{
-    background-color: white;
+    background-color: rgb(221, 221, 221);
     text-align: center;
     height: 300px;
     width: 275px;
@@ -80,8 +80,10 @@ main form{
     margin: 30px auto;
     display: flex;
     flex-direction: column;
+    border-style:solid;
+    border-color: rgb(102, 96, 96);
     justify-content: center;
-    align-items: center;   
+    align-items: center;
 }
 
 .mainData .employee-card img{
