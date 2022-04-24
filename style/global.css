@@ -10,7 +10,7 @@ header {
     justify-content: space-around;
     height: 15vh;
     background-color: rgb(40, 40, 99);
-    color: rgb(228, 228, 228);
+    color: rgb(238, 238, 238);
 }
 
 header .website-name{
@@ -61,6 +61,8 @@ footer{
     font-size: 15px;
 }
 
-footer a{
+footer .social-media {
     color: rgb(214, 203, 203);
+    justify-content: center;
+    align-items:center;
 }
