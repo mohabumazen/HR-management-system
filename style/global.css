@@ -61,8 +61,9 @@ footer{
     font-size: 15px;
 }
 
-footer .social-media {
-    color: rgb(214, 203, 203);
+.social-media {
+    color: rgb(0, 0, 0);
+    background-color: brown;
     justify-content: center;
     align-items:center;
 }

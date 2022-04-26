@@ -1,0 +1,37 @@
+main {
+    height: 75vh;
+    background-color: #ebf6ed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .table-card {
+    background-color: white;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 10px 10px 8px #888888;
+    padding: 5vh;
+  }
+  
+  table {
+    border-collapse: collapse;
+  }
+  
+  .table-card div {
+    padding: 3vh;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 1vh;
+  }
+  
+  .table-card table td,
+  .table-card table th {
+    border: 1px solid black;
+    padding: 1vh;
+    font-size: 22px;
+  }
+  
+  tr:last-child {
+    background-color: #aadbc5;
+  }
